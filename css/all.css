@@ -1,0 +1,248 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* CSS RESET END */
+
+.wrap {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 1024px;
+    height: 300px;
+    background-color: #424242;
+}
+
+.bmiLOGO {
+    top: 62px;
+    margin-left: 173px;
+    position: relative;
+}
+
+.height {
+    margin-left: 87px;
+    margin-top: 94px;
+    float: left;
+    font-size: 18px;
+    color: #FFD366;
+    position: absolute;
+}
+
+.weight {
+    margin-top: 157px;
+    margin-left: 87px;
+    float: left;
+    font-size: 18px;
+    color: #FFD366;
+    position: absolute;
+}
+
+.howHeight {
+    font-size: 25px;
+    width: 250px;
+    height: 40px;
+    float: right;
+    position: absolute;
+    top: 74px;
+    margin-left: 187px;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255, 0.5);
+    border: 2px solid #FFD366;
+}
+
+.howWeight {
+    font-size: 25px;
+    width: 250px;
+    height: 40px;
+    float: right;
+    position: absolute;
+    top: 135px;
+    margin-left: 187px;
+    border: 2px solid #FFD366;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255, 0.5);
+}
+
+.send {
+    top: 70px;
+    position: absolute;
+    right: 25%;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #FFD366;
+    font-size: 24px;
+    font-family: PingFangTC-Regular;
+    border: none;
+    color: #424242;
+    cursor: pointer;
+}
+
+ul {
+    background-color: #FFF;
+    margin: 30px 100px 0 100px;
+}
+
+span {
+    display: inline-block;
+    line-height: 40px;
+}
+
+.content {
+    width: 1024px;
+    background-color: #efe9e7;
+}
+
+.footer {
+    width: 1024px;
+    height: 90px;
+    background-color: #FFD366;
+}
+
+.bmiLOGObottom {
+    width: 55px;
+    height: 55px;
+    margin-left: 485px;
+    margin-top: 15px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.title {
+    color: #424242;
+    font-size: 24px;
+    padding-top: 48px;
+    padding-left: 464px;
+}
