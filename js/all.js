@@ -50,6 +50,9 @@
          situation = '你是胖子';
          color = 'red';
 
+     } else if (NaN = BMI) {
+         situation = '請輸入數據'
+         color = 'black';
      }
 
      var health = {

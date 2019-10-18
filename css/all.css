@@ -132,85 +132,117 @@ table {
 
 /* CSS RESET END */
 
+body {
+    background: linear-gradient(to bottom right, #F1F2B5, #eef2f3);
+    background-attachment: fixed;
+}
+
 .wrap {
     max-width: 1024px;
+    margin: 40px auto;
+    font-family: "Quicksand";
+
+}
+
+.wrap h3 {
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    padding: 15px;
+}
+
+.wrap h3 b {
+    font-family: "Quicksand";
+    font-size: 32px;
+    font-weight: 300;
+    color: #289df6;
+}
+
+.main {
+
+    border: solid 1px #289df6;
+    background-color: #fff;
+    height: 190px;
+    width: 450px;
+    border-radius: 20px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
 
-.header {
-    width: 1024px;
-    height: 300px;
-    background-color: #424242;
+
+.n1,
+.n2 {
+    width: 49%;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.bmiLOGO {
-    top: 62px;
-    margin-left: 173px;
-    position: relative;
-}
 
 .height {
-    margin-left: 87px;
-    margin-top: 94px;
-    float: left;
-    font-size: 18px;
-    color: #FFD366;
-    position: absolute;
+
+
+    font-size: 15px;
+
+
 }
 
 .weight {
-    margin-top: 157px;
-    margin-left: 87px;
-    float: left;
-    font-size: 18px;
-    color: #FFD366;
-    position: absolute;
+
+    font-size: 15px;
+
 }
 
 .howHeight {
-    font-size: 25px;
-    width: 250px;
-    height: 40px;
-    float: right;
-    position: absolute;
-    top: 74px;
-    margin-left: 187px;
-    border-radius: 3px;
-    background-color: rgb(255, 255, 255, 0.5);
-    border: 2px solid #FFD366;
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #dbeffe;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    cursor: pointer;
 }
 
 .howWeight {
-    font-size: 25px;
-    width: 250px;
-    height: 40px;
-    float: right;
-    position: absolute;
-    top: 135px;
-    margin-left: 187px;
-    border: 2px solid #FFD366;
-    border-radius: 3px;
-    background-color: rgb(255, 255, 255, 0.5);
+    width: 60px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #dbeffe;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.text {
+    margin: 5px 20px 5px 8px;
+    font-size: 300;
 }
 
 .send {
-    top: 70px;
-    position: absolute;
-    right: 25%;
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    background: #FFD366;
-    font-size: 24px;
-    font-family: PingFangTC-Regular;
     border: none;
-    color: #424242;
+    border-radius: 10px;
+    height: 40px;
+    width: 140px;
+    background-color: #289df6;
+    color: #fff;
+    margin: 0 auto 20px auto;
+    display: block;
+    outline: none;
     cursor: pointer;
+
 }
 
 ul {
     background-color: #FFF;
-    margin: 30px 100px 0 100px;
+    margin: 30px auto;
 }
 
 span {
@@ -221,28 +253,23 @@ span {
 .content {
     width: 1024px;
     background-color: #efe9e7;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.footer {
-    width: 1024px;
-    height: 90px;
-    background-color: #FFD366;
-}
 
-.bmiLOGObottom {
-    width: 55px;
-    height: 55px;
-    margin-left: 485px;
-    margin-top: 15px;
-}
 
-.clearfix {
-    clear: both;
-}
+
 
 .title {
+    width: 50%;
     color: #424242;
     font-size: 24px;
-    padding-top: 48px;
-    padding-left: 464px;
+
+    text-align: center;
+    padding: 20px;
+
 }

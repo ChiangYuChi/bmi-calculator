@@ -16,21 +16,38 @@
 
     <link rel="SHORTCUT ICON" href="./img/windows_button_keyboard_type-256.png" />
 
-    <title>javascript BMI 作業</title>
+    <title>BMI Calculator</title>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/all.css">
 </head>
 
 
 <body>
     <div class="wrap">
-        <div class="header">
-            <img src="./img/BMICLogo.png" alt="bmiLOGO" class="bmiLOGO">
-            <label for="height" class="height">身高 cm</label>
-            <input type="text" name="height" placeholder="請輸入身高" id="height" class="howHeight" required>
-            <label for="weight" class="weight">體重 kg</label>
-            <input type="text" name="weight" placeholder="請輸入體重" id="weight" class="howWeight" required>
-            <input type="button" value="看結果" class="send">
-            <div class="clearfix"></div>
+
+        <h3><b>B</b>ody <b>M</b>ass <b>I</b>ndex Calculator</h3>
+        <div class="main">
+
+            <div class="n1">
+                <input type="text" name="height" placeholder="請輸入身高" id="height" class="howHeight" required>
+                <label for="height" class="height">
+                    <p class="text">Height (cm)</p>
+                </label>
+            </div>
+
+            <div class="n2">
+                <input type="text" name="weight" placeholder="請輸入體重" id="weight" class="howWeight" required>
+                <label for="weight" class="weight">
+                    <p class="text">Weight （kg）</p>
+                </label>
+            </div>
+
+
+
+
+
+            <input type="button" value="Submit" class="send">
+
 
 
         </div>
@@ -41,9 +58,7 @@
         </div>
 
 
-        <div class="footer">
-            <img src="./img/BMICLogoGray.png" class="bmiLOGObottom ">
-        </div>
+
 
     </div>
 
