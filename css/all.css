@@ -141,6 +141,10 @@ body {
     width: 1024px;
     margin: 40px auto;
     font-family: "Quicksand";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 
 }
@@ -150,13 +154,20 @@ body {
     font-weight: 300;
     text-align: center;
     padding: 15px;
+    display: flex;
+    border: 1px solid red;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .wrap h3 b {
     font-family: "Quicksand";
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 300;
     color: #289df6;
+
+
 }
 
 .main {
@@ -166,7 +177,7 @@ body {
     height: 190px;
     width: 450px;
     border-radius: 20px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -276,23 +287,46 @@ span {
 }
 
 
-
-
-
-
-@media (max-width: 414px) {
+@media(min-width:375px) {
     .wrap {
-        width: 400px;
-        margin: 0 auto;
+        width: 300px;
+        border: 1px solid orange;
     }
 
-    .main {
+    .wrap .main {
+        height: 250px;
+        width: 300px;
+
+    }
+
+    .wrap .content {
+        width: 300px;
+
+        margin: 20px auto;
+
+
+    }
+
+
+}
+
+
+
+
+@media (min-width: 414px) {
+    .wrap {
+        width: 390px;
+        margin: 0 auto;
+        border: 1px solid red;
+    }
+
+    .wrap .main {
         height: 250px;
         width: 330px;
 
     }
 
-    .content {
+    .wrap .content {
         width: 330px;
 
         margin: 20px auto;
@@ -322,29 +356,53 @@ span {
     }
 
 } */
-
-
-
-
-
-
-@media (max-width: 767px) {
+@media (min-width: 767px) {
     .wrap {
         width: 700px;
         margin: 0 auto;
-
-        justify-content: center;
+        border: 1px solid yellow;
     }
 
-    .main {
+    .wrap .main {
         height: 250px;
         width: 510px;
     }
 
-    .content {
+    .wrap .content {
         width: 700px;
 
     }
 
 
+}
+
+
+
+
+
+@media (min-width: 991px) {
+    .wrap {
+        width: 700px;
+        margin: 0 auto;
+        border: 1px solid black;
+    }
+
+    .wrap .main {
+        height: 250px;
+        width: 510px;
+    }
+
+    .wrap .content {
+        width: 700px;
+
+    }
+
+
+}
+
+@media(min-width:1024px) {
+    .wrap {
+        width: 1024px;
+        border: 1px solid green;
+    }
 }
