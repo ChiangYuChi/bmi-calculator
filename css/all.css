@@ -400,6 +400,13 @@ span {
 
     }
 
+    .main .howHeight,
+    .main .howWeight {
+        width: 80px;
+
+
+    }
+
 
 }
 
@@ -420,6 +427,13 @@ span {
     .wrap .content {
         width: 700px;
 
+    }
+
+    .main .howHeight,
+    .main .howWeight {
+        width: 80px;
+
+        margin-left: 15px;
     }
 
 
@@ -446,12 +460,26 @@ span {
 
     }
 
+    .main .howHeight,
+    .main .howWeight {
+        width: 80px;
+
+
+    }
+
 
 }
 
 @media(min-width:1024px) {
     .wrap {
         width: 1024px;
+
+    }
+
+    .main .howHeight,
+    .main .howWeight {
+        width: 80px;
+
 
     }
 }
