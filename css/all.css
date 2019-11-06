@@ -427,7 +427,23 @@ span {
     .wrap .content {
         width: 700px;
 
+
     }
+
+    .wrap h3 {
+        font-size: 24px;
+
+
+    }
+
+    .wrap h3 b {
+
+        font-size: 30px;
+
+
+
+    }
+
 
     .main .howHeight,
     .main .howWeight {
@@ -460,6 +476,21 @@ span {
 
     }
 
+    .wrap h3 {
+        font-size: 24px;
+
+
+    }
+
+    .wrap h3 b {
+
+        font-size: 30px;
+
+
+
+    }
+
+
     .main .howHeight,
     .main .howWeight {
         width: 80px;
@@ -473,6 +504,20 @@ span {
 @media(min-width:1024px) {
     .wrap {
         width: 1024px;
+
+    }
+
+    .wrap h3 {
+        font-size: 24px;
+
+
+    }
+
+    .wrap h3 b {
+
+        font-size: 30px;
+
+
 
     }
 
