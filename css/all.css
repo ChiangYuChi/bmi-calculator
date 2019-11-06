@@ -155,7 +155,7 @@ body {
     text-align: center;
     padding: 15px;
     display: flex;
-    border: 1px solid red;
+
     justify-content: center;
     align-items: center;
 
@@ -212,7 +212,7 @@ body {
 }
 
 .howHeight {
-    width: 60px;
+    width: 70px;
     height: 30px;
     border-radius: 10px;
     background-color: #dbeffe;
@@ -223,7 +223,7 @@ body {
 }
 
 .howWeight {
-    width: 60px;
+    width: 70px;
     height: 30px;
     border-radius: 10px;
     background-color: #dbeffe;
@@ -287,16 +287,82 @@ span {
 }
 
 
+@media(min-width:320px) {
+    .wrap {
+        width: 290px;
+
+    }
+
+    .wrap .main {
+        height: 290px;
+        width: 290px;
+
+    }
+
+    .wrap h3 {
+        font-size: 18px;
+
+
+    }
+
+    .wrap h3 b {
+
+        font-size: 24px;
+
+
+
+    }
+
+    .main .howHeight,
+    .main .howWeight {
+        width: 60px;
+
+        margin-left: 15px;
+    }
+
+
+
+    .wrap .content {
+        width: 290px;
+
+        margin: 20px auto;
+
+
+    }
+}
+
+
 @media(min-width:375px) {
     .wrap {
         width: 300px;
-        border: 1px solid orange;
+
     }
 
     .wrap .main {
         height: 250px;
         width: 300px;
 
+    }
+
+    .wrap h3 {
+        font-size: 20px;
+
+
+    }
+
+    .wrap h3 b {
+
+        font-size: 26px;
+
+
+
+    }
+
+    .main .howHeight,
+    .main .howWeight {
+        width: 60px;
+
+        margin-left: 15px;
     }
 
     .wrap .content {
@@ -317,7 +383,7 @@ span {
     .wrap {
         width: 390px;
         margin: 0 auto;
-        border: 1px solid red;
+
     }
 
     .wrap .main {
@@ -338,29 +404,12 @@ span {
 }
 
 
-/* @media (max-width: 575px) {
-    .wrap {
-        max-width: 500px;
-        margin: 0 auto;
-    }
 
-    .main {
-        height: 250px;
-        max-width: 410px;
-        border: 1px solid red;
-    }
-
-    .content {
-        max-width: 500px;
-
-    }
-
-} */
 @media (min-width: 767px) {
     .wrap {
         width: 700px;
         margin: 0 auto;
-        border: 1px solid yellow;
+
     }
 
     .wrap .main {
@@ -384,7 +433,7 @@ span {
     .wrap {
         width: 700px;
         margin: 0 auto;
-        border: 1px solid black;
+
     }
 
     .wrap .main {
@@ -403,6 +452,6 @@ span {
 @media(min-width:1024px) {
     .wrap {
         width: 1024px;
-        border: 1px solid green;
+
     }
 }
